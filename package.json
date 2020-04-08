@@ -1,0 +1,15 @@
+{
+  "name": "updatedportfolio1",
+  "version": "1.0.0",
+  "description": "An updated portfolio.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jake Petersen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

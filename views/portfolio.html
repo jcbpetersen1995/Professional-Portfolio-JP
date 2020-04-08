@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--My Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Jake Petersen</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!--sidebar-->
+        <button class="uk-button uk-button-default uk-margin-small-right" type="button"
+            uk-toggle="target: #offcanvas-nav-primary" id="exploreButton" style="margin-top:30px;">Explore</button>
+
+        <div id="offcanvas-nav-primary" uk-offcanvas="mode: push; overlay: true">
+            <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                <img src="/images/logowhite.png" alt="whitelogo" id="whiteLogo">
+                <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                    <li><a href="/">Welcome</a></li>
+                    <li class="uk-active"><a href="/jake">Portfolio</a></li>
+                    <li><a href="https://github.com/jcbpetersen1995" target="_blank">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/jcbpetersen1995/" target="_blank">LinkedIn</a></li>
+                    <li><a href="/images/ResumeJP2020.pdf" target ="_blank">Resume</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+        <!--/sidebar-->
+
+        <div class="row" style="padding-top:60px; padding-bottom:45px">
+            <div class="col-sm-12">
+                <h1 id="welcome">PROJECTS</h1>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                <img src="/images/eat.png" alt="Eat Da Burger" uk-cover>
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">Eat-Da-Burger</h3>
+                    <p>A fun web app that allows the user to add a
+                        burger to the menu, and then devour it! This app features MYSQL and express.</p>
+                </div>
+                <div class="uk-card-footer">
+                    <a href="https://eat-da-burger-jp.herokuapp.com/" target="_blank"
+                        class="uk-button uk-button-text">Eat-Da-Burger</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/jcbpetersen1995/Burger-JP" target="_blank"
+                        class="uk-button uk-button-text">Github</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                <img src="/images/tri.png" alt="Tri App" uk-cover>
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">TriPoints</h3>
+                    <p>A beautiful web app providing users with the true
+                        costs of owning a brand-new Mercedes-Benz vehicle. The user is presented with
+                        fuel costs, services costs, and start prices for all models in the Mercedes-Benz lineup.</p>
+                </div>
+                <div class="uk-card-footer">
+                    <a href="https://tripoint.herokuapp.com/" target="_blank"
+                        class="uk-button uk-button-text">TriPoints</a>
+                    <br>
+                    <a href="https://github.com/MustafaKhairalla/project-duck-2.0" target="_blank"
+                        class="uk-button uk-button-text">Github</a>
+                    <br>
+                    <div class="uk-inline">
+                        <button class="uk-button uk-button-text" type="button">Contributors</button>
+                        <div uk-dropdown>
+                            <ul class="uk-list">
+                                <li><a class="uk-button uk-button-text" href="https://github.com/ameliadavis"
+                                        target="_blank">Amy Davis</a></li>
+                                <li><a class="uk-button uk-button-text" href="https://github.com/cristian634"
+                                        target="_blank">Cristian Robinson</a></li>
+                                <li><a class="uk-button uk-button-text" href="https://github.com/jcbpetersen1995"
+                                        target="_blank">Jake Petersen</a></li>
+                                <li><a class="uk-button uk-button-text" href="https://github.com/MustafaKhairalla"
+                                        target="_blank">Mustafa Khairalla</a></li>
+                                <li><a class="uk-button uk-button-text" href="https://github.com/Ellen0404"
+                                        target="_blank">Elena Demidionok</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                <img src="/images/food.png" alt="Foodecipe" uk-cover>
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">Foodecipe</h3>
+                    <p>Foodecipe is a hunger-driven application designed to make finding delicious
+                        recipes from around the
+                        world easier than ever! Simply open Foodecipe and select a type of food from the drop-down menu.
+                        Once a choice is made, the user will be rewarded with six delicious recipes that populate on the
+                        screen.</p>
+                </div>
+                <div class="uk-card-footer">
+                    <a href="https://mustafakhairalla.github.io/duck-duck-code/" target="_blank"
+                        class="uk-button uk-button-text">Foodecipe</a>
+                    <br>
+                    <a href="https://github.com/MustafaKhairalla/duck-duck-code" target="_blank"
+                        class="uk-button uk-button-text">Github</a>
+                    <br>
+                    <div class="uk-inline">
+                        <button class="uk-button uk-button-text" type="button">Contributors</button>
+                        <div uk-dropdown>
+                            <ul class="uk-list">
+                                <li><a class="uk-button uk-button-text" href="https://github.com/ameliadavis"
+                                        target="_blank">Amy Davis</a></li>
+                                <li><a class="uk-button uk-button-text" href="https://github.com/cristian634"
+                                        target="_blank">Cristian Robinson</a></li>
+                                <li><a class="uk-button uk-button-text" href="https://github.com/jcbpetersen1995"
+                                        target="_blank">Jake Petersen</a></li>
+                                <li><a class="uk-button uk-button-text" href="https://github.com/MustafaKhairalla"
+                                        target="_blank">Mustafa Khairalla</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                <img src="/images/weather.png" alt="Weather" uk-cover>
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">Weather Dashboard</h3>
+                    <p>The weather dashboard is simple application designed to show the user weather
+                        from around the world.
+                        Simply search for a city, and the weather information is populated. The app will display the
+                        current weather situation, as well as a
+                        five-day forecast. There are also several buttons with popular cities to choose from.</p>
+                </div>
+                <div class="uk-card-footer">
+                    <a href="https://jcbpetersen1995.github.io/Weather-Dashboard-Jp/" target="_blank"
+                        class="uk-button uk-button-text">Weather Dashboard</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/jcbpetersen1995/Weather-Dashboard-Jp" target="_blank"
+                        class="uk-button uk-button-text">Github</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                <img src="/images/note.png" alt="note" uk-cover>
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">Note Taker</h3>
+                    <p>This application is a simple way to way to create/modify/and
+                        delete notes and keep the user organized.</p>
+                </div>
+                <div class="uk-card-footer">
+                    <a href="https://secret-tundra-14124.herokuapp.com/" target="_blank"
+                        class="uk-button uk-button-text">Note Taker</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/jcbpetersen1995/Note-Taker" target="_blank"
+                        class="uk-button uk-button-text">Github</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                <img src="/images/work.png" alt="scheduler" uk-cover>
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">Work Day Scheduler</h3>
+                    <p>This application is designed to make tasks throughout the day easier for this user. Simply type
+                        in a task and select the save button to save.
+                        The timblocks are color-coded to show you what tasks still need to be done, based on the time of
+                        day.
+                        Gray is the past, green is the future, and red is the present. Please enjoy.</p>
+                </div>
+                <div class="uk-card-footer">
+                    <a href="https://jcbpetersen1995.github.io/unit-05-homework/" target="_blank"
+                        class="uk-button uk-button-text">Work Day Scheduler</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/jcbpetersen1995/unit-05-homework" target="_blank"
+                        class="uk-button uk-button-text">Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Footer-->
+    <footer class="footer2">
+        <p>Thank you for checking out my portfolio! Please return for more great content!</p>
+    </footer>
+    <!--/Footer-->
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>

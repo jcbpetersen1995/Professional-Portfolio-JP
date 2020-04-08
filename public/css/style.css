@@ -1,0 +1,85 @@
+body {
+    background-image: url('/images/blue.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Space Mono', monospace;
+}
+#welcome {
+    color: #01FF70;
+    font-family: 'Monoton', cursive
+
+}
+#bio {
+    color: white;
+    text-align: justify;
+    font-family: 'Space Mono', monospace;
+}
+#exploreButton {
+    font-family: 'Monoton', cursive;
+    color :#01FF70;
+    /*color: #FFDC00;
+    color: #39CCCC; */
+}
+#whiteLogo {
+    width: 30%;
+}
+.footer {
+    background-color: #39CCCC;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+#intro {
+    color: #01FF70;
+    text-align: justify;
+    font-family: 'Space Mono', monospace;
+}
+#aboutMe {
+    color: #01FF70;
+    text-align: justify;
+    font-family: 'Space Mono', monospace;
+}
+#career {
+    color: #01FF70;
+    text-align: justify;
+    font-family: 'Space Mono', monospace;
+}
+/*#photofix {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}*/
+.app {
+    font-family: 'Space Mono', monospace;
+}
+.uk-card-title {
+    font-size: xx-large;
+    font-family: 'Space Mono', monospace;
+    color: #39CCCC
+}
+.footer2 {
+    background-color: #FFDC00;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+/* Media Query Mobile Devices */
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 2px;
+        margin-top: 3px;
+    }
+  }
